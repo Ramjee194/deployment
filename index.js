@@ -14,6 +14,9 @@ app.get('/',(req,res)=>{
     res.send("app is working ")
 })
 
+app.get('/api/v1', (req, res) => {
+    res.json('main api here')
+})
 //port
 const PORT=process.env.PORT || 3000;
 
