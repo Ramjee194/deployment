@@ -11,7 +11,7 @@ const app=express()
 //routes
 app.get('/',(req,res)=>{
    
-    res.send("app is working ")
+    res.json("app is working ")
 })
 
 app.get('/api/v1', (req, res) => {
